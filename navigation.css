@@ -1,0 +1,39 @@
+div#navbar ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 1em 0 1em 0;
+
+}
+
+div#navbar ul li {
+  display: inline;
+  margin: 3%;
+  padding: 1em;
+}
+
+h1 {
+  text-align: center;
+}
+
+.color:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.about:hover {
+  color: rgb(56, 156, 172);
+  cursor: pointer;
+}
+
+.blog {
+  border: 2px red solid;
+  padding: 1em;
+}
+
+.blog:hover {
+  cursor: pointer;
+}
+.expand:active {
+  padding: 0 5px 0 5px;
+}
